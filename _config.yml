@@ -180,6 +180,9 @@ exclude:
   - lighthouse_results/
   - package.json
   - package-lock.json
+  - _pages/dropdown.md
+  - _pages/projects.md
+  - _pages/repositories.md
   - _pages/about_einstein.md
   - purgecss.config.js
   - README.md
