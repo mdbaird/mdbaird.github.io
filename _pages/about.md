@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: <strong>Senior Staff Economist @ LinkedIn's <a href='https://economicgraph.linkedin.com/economic-graph-research-institute'>Economic Graph Research Institute</a></strong>.
 
 profile:
   align: right
