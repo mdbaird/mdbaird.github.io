@@ -8,9 +8,9 @@ profile:
   align: right
   image: prof_pic.jpg
   image_circular: true # crops the image to make it circular
-  more_info: >
+  <!-- more_info: >
     <p><a href="mailto:mdbaird@linkedin.com" target="_blank">mdbaird@linkedin.com</a></p>
-    <p>412-660-1457</p>
+    <p>412-660-1457</p> -->
 
 news: false # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
