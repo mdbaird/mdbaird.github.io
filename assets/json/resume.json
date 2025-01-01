@@ -128,7 +128,7 @@
       "startDate": "2021-06-01",
       "endDate": "2021-08-01",
       "summary": "Causal Inference and Machine Learning (doctoral)",
-      "highlights": []
+      "location": "Remote"
     },
     {
       "name": "Pardee RAND Graduate School",
@@ -136,7 +136,7 @@
       "startDate": "2019-06-01",
       "endDate": "2019-08-01",
       "summary": "Policy to Improve Labor Markets for Disadvantaged Populations (doctoral)",
-      "highlights": []
+      "location": "Remote"
     },
     {
       "name": "Carnegie Mellon University",
@@ -144,7 +144,7 @@
       "startDate": "2016-09-01",
       "endDate": "2016-12-31",
       "summary": "Econometric Theory and Methods II (doctoral)",
-      "highlights": []
+      "location": "Pittsburgh, PA"
     },
     {
       "name": "University of Pittsburgh",
@@ -152,7 +152,7 @@
       "startDate": "2014-01-01",
       "endDate": "2014-06-01",
       "summary": "Labor Market Analysis I (doctoral)",
-      "highlights": []
+      "location": "Pittsburgh, PA"
     },
     {
       "name": "University of Pittsburgh",
@@ -160,7 +160,7 @@
       "startDate": "2015-09-01",
       "endDate": "2014-12-01",
       "summary": "Labor Market Analysis I (doctoral)",
-      "highlights": []
+      "location": "Pittsburgh, PA"
     },
     {
       "name": "University of California, Los Angeles",
@@ -168,7 +168,7 @@
       "startDate": "2012-09-01",
       "endDate": "2012-12-01",
       "summary": "Intermediate Macroeconomics (undergraduate)",
-      "highlights": []
+      "location": "Los Angeles, CA"
     },
     {
       "name": "Brigham Young University",
@@ -176,7 +176,7 @@
       "startDate": "2010-06-01",
       "endDate": "2010-08-01",
       "summary": "Statistics for Economists (undergraduate)",
-      "highlights": []
+      "location": "Provo, UT"
     }
   ],
   "publications": [
