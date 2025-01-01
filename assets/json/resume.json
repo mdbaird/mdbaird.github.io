@@ -101,6 +101,41 @@
       "countryCode": "US"
     }
   ],
+  "education": [
+    {
+      "institution": "University of California, Los Angeles",
+      "location": "California, US",
+      "url": "https://economics.ucla.edu/graduate/ph-d-program/",
+      "area": "Economics",
+      "studyType": "PhD",
+      "startDate": "2012-01-01",
+      "endDate": "2012-12-31",
+      "city": "Los Angeles",
+      "countryCode": "US"
+    },
+    {
+      "institution": "University of California, Los Angeles",
+      "location": "California, US",
+      "url": "https://economics.ucla.edu/graduate/ph-d-program/",
+      "area": "Economics",
+      "studyType": "MS",
+      "startDate": "2009-01-01",
+      "endDate": "2009-12-31",
+      "city": "Los Angeles",
+      "countryCode": "US"
+    },
+    {
+      "institution": "Brigham Young University",
+      "location": "Utah, US",
+      "url": "https://economics.byu.edu/",
+      "area": "Economics, History, Mathematics",
+      "studyType": "BS",
+      "startDate": "2007-01-01",
+      "endDate": "2007-12-31",
+      "city": "Provo",
+      "countryCode": "US"
+    }
+  ],
   "teaching": [
     {
       "name": "Pardee RAND Graduate School",
