@@ -2,7 +2,7 @@
   "basics": {
     "name": "Matthew D. Baird",
     "title": "Senior Staff Economist",
-    "employer": "LinkedIn"
+    "employer": "LinkedIn",
     "email": "mdbaird@linkedin.com",
     "phone": "(412) 660-1457",
     "url": "mdbaird.github.io",
@@ -12,14 +12,7 @@
       "postalCode": "",
       "city": "Pittsburgh",
       "countryCode": "US"
-    },
-    "profiles": [
-      {
-        "network": "LinkedIn",
-        "username": "matthewdbaird",
-        "url": "https://www.linkedin.com/in/matthewdbaird"
-      }
-    ]
+    }
   },
   "education": [
     {
