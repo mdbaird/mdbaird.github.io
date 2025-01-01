@@ -1,4 +1,26 @@
 {
+  "basics": {
+    "name": "Matthew D. Baird",
+    "title": "Senior Staff Economist",
+    "employer": "LinkedIn"
+    "email": "mdbaird@linkedin.com",
+    "phone": "(412) 660-1457",
+    "url": "mdbaird.github.io",
+    "summary": "Dr. Matthew Baird is a labor economist researcher with years of experience in tech, academia, and research institutes. He currently works in LinkedIn's Economic Graph Research Institute.",
+    "location": {
+      "address": "",
+      "postalCode": "",
+      "city": "Pittsburgh",
+      "countryCode": "US"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "matthewdbaird",
+        "url": "https://www.linkedin.com/in/matthewdbaird"
+      }
+    ]
+  },
   "education": [
     {
       "institution": "University of California, Los Angeles",
@@ -27,7 +49,7 @@
       "location": "Utah, US",
       "url": "https://economics.byu.edu/",
       "area": "Economics, History, Mathematics",
-      "studyType": "BS, BA, Minor",
+      "studyType": "BS",
       "startDate": "2007-01-01",
       "endDate": "2007-12-31",
       "city": "Provo",
