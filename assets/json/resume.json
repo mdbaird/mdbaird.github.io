@@ -31,11 +31,9 @@
       "name": "The RAND Corporation",
       "position": "Co-director, RAND Center for Causal Inference",
       "url": "https://www.rand.org/global-and-emerging-risks/centers/methods-centers/causal-inference.html",
-      "location": "Pittsburgh",
+      "location": "Pittsburgh, PA",
       "startDate": "2018-01-01",
-      "endDate": "2022-01-01",
-      "city": "Pittsburgh",
-      "countryCode": "US"
+      "endDate": "2022-01-01"
     },
     {
       "name": "Pardee RAND Graduate School",
@@ -43,8 +41,7 @@
       "url": "https://www.pardeerand.edu/",
       "startDate": "2018-01-01",
       "endDate": "2022-01-01",
-      "city": "Pittsburgh",
-      "countryCode": "US"
+      "location": "Remote"
     },
     {
       "name": "The RAND Corporation",
@@ -52,8 +49,7 @@
       "url": "https://www.rand.org/pubs/authors/b/baird_matthew_d.html",
       "startDate": "2016-01-01",
       "endDate": "2022-01-01",
-      "city": "Pittsburgh",
-      "countryCode": "US"
+      "location": "Pittsburgh, PA"
     },
     {
       "name": "The RAND Corporation",
@@ -61,8 +57,7 @@
       "url": "https://www.rand.org/pubs/authors/b/baird_matthew_d.html",
       "startDate": "2013-01-01",
       "endDate": "2016-01-01",
-      "city": "Pittsburgh",
-      "countryCode": "US"
+      "location": "Pittsburgh, PA"
     },
     {
       "name": "Carnegie Mellon University",
@@ -70,8 +65,7 @@
       "url": "https://www.heinz.cmu.edu/programs/phd-programs/public-policy-management",
       "startDate": "2016-01-01",
       "endDate": "2016-12-31",
-      "city": "Pittsburgh",
-      "countryCode": "US"
+      "location": "Pittsburgh, PA"
     },
     {
       "name": "University of Pittsburgh",
@@ -79,8 +73,7 @@
       "url": "https://www.econ.pitt.edu/doctoral",
       "startDate": "2014-01-01",
       "endDate": "2015-12-31",
-      "city": "Pittsburgh",
-      "countryCode": "US"
+      "location": "Pittsburgh, PA"
     },
     {
       "name": "University of California, Los Angeles",
@@ -88,8 +81,7 @@
       "url": "https://economics.ucla.edu/",
       "startDate": "2012-01-01",
       "endDate": "2012-12-31",
-      "city": "Los Angeles",
-      "countryCode": "US"
+      "location": "Los Angeles, CA",
     },
     {
       "name": "Brigham Young University",
@@ -97,43 +89,36 @@
       "url": "https://economics.byu.edu/",
       "startDate": "2010-01-01",
       "endDate": "2010-12-31",
-      "city": "Provo",
-      "countryCode": "US"
+      "location": "Provo, UT"
     }
   ],
   "education": [
     {
       "institution": "University of California, Los Angeles",
-      "location": "California, US",
+      "location": "Los Angeles, CA",
       "url": "https://economics.ucla.edu/graduate/ph-d-program/",
       "area": "Economics",
       "studyType": "PhD",
       "startDate": "2012-01-01",
-      "endDate": "2012-12-31",
-      "city": "Los Angeles",
-      "countryCode": "US"
+      "endDate": "2012-12-31"
     },
     {
       "institution": "University of California, Los Angeles",
-      "location": "California, US",
+      "location": "Los Angeles, CA",
       "url": "https://economics.ucla.edu/graduate/ph-d-program/",
       "area": "Economics",
       "studyType": "MS",
       "startDate": "2009-01-01",
-      "endDate": "2009-12-31",
-      "city": "Los Angeles",
-      "countryCode": "US"
+      "endDate": "2009-12-31"
     },
     {
       "institution": "Brigham Young University",
-      "location": "Utah, US",
+      "location": "Provo, UT",
       "url": "https://economics.byu.edu/",
       "area": "Economics, History, Mathematics",
       "studyType": "BS",
       "startDate": "2007-01-01",
-      "endDate": "2007-12-31",
-      "city": "Provo",
-      "countryCode": "US"
+      "endDate": "2007-12-31"
     }
   ],
   "teaching": [
