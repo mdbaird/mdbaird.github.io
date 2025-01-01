@@ -7,12 +7,8 @@
     "phone": "(412) 660-1457",
     "url": "mdbaird.github.io",
     "summary": "Dr. Matthew Baird is a labor economist researcher with years of experience in tech, academia, and research institutes. He currently works in LinkedIn's Economic Graph Research Institute.",
-    "location": {
-      "address": "",
-      "postalCode": "",
-      "city": "Pittsburgh",
-      "countryCode": "US"
-    }
+    "city": "Pittsburgh",
+    "countryCode": "US"
   },
     "work": [
     {
@@ -21,9 +17,7 @@
       "url": "https://economicgraph.linkedin.com/economic-graph-research-institute#2",
       "location": "Remote",
       "startDate": "2023-01-01",
-      "endDate": "present",
-      "summary": "",
-      "highlights": []
+      "endDate": "present"
     },
     {
       "name": "LinkedIn",
@@ -31,9 +25,7 @@
       "url": "https://www.linkedin.com",
       "location": "Remote",
       "startDate": "2022-01-01",
-      "endDate": "present",
-      "summary": "",
-      "highlights": []
+      "endDate": "present"
     },
     {
       "name": "The RAND Corporation",
@@ -44,8 +36,6 @@
       "endDate": "2022-01-01",
       "city": "Pittsburgh",
       "countryCode": "US",
-      "summary": "",
-      "highlights": []
     },
     {
       "name": "Pardee RAND Graduate School",
@@ -54,9 +44,7 @@
       "startDate": "2018-01-01",
       "endDate": "2022-01-01",
       "city": "Pittsburgh",
-      "countryCode": "US",
-      "summary": "",
-      "highlights": []
+      "countryCode": "US"
     },
     {
       "name": "The RAND Corporation",
@@ -65,9 +53,7 @@
       "startDate": "2016-01-01",
       "endDate": "2022-01-01",
       "city": "Pittsburgh",
-      "countryCode": "US",
-      "summary": "",
-      "highlights": []
+      "countryCode": "US"
     },
     {
       "name": "The RAND Corporation",
@@ -76,9 +62,7 @@
       "startDate": "2013-01-01",
       "endDate": "2016-01-01",
       "city": "Pittsburgh",
-      "countryCode": "US",
-      "summary": "",
-      "highlights": []
+      "countryCode": "US"
     },
     {
       "name": "Carnegie Mellon University",
@@ -87,9 +71,7 @@
       "startDate": "2016-01-01",
       "endDate": "2016-12-31",
       "city": "Pittsburgh",
-      "countryCode": "US",
-      "summary": "",
-      "highlights": []
+      "countryCode": "US"
     },
     {
       "name": "University of Pittsburgh",
@@ -98,9 +80,7 @@
       "startDate": "2014-01-01",
       "endDate": "2015-12-31",
       "city": "Pittsburgh",
-      "countryCode": "US",
-      "summary": "",
-      "highlights": []
+      "countryCode": "US"
     },
     {
       "name": "University of California, Los Angeles",
@@ -109,9 +89,7 @@
       "startDate": "2012-01-01",
       "endDate": "2012-12-31",
       "city": "Los Angeles",
-      "countryCode": "US",
-      "summary": "",
-      "highlights": []
+      "countryCode": "US"
     },
     {
       "name": "Brigham Young University",
@@ -120,9 +98,7 @@
       "startDate": "2010-01-01",
       "endDate": "2010-12-31",
       "city": "Provo",
-      "countryCode": "US",
-      "summary": "",
-      "highlights": []
+      "countryCode": "US"
     }
   ],
   "education": [
