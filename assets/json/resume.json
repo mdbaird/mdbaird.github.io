@@ -14,6 +14,117 @@
       "countryCode": "US"
     }
   },
+    "work": [
+    {
+      "name": "LinkedIn Economic Graph Research Institute",
+      "position": "Equity Program Lead",
+      "url": "https://economicgraph.linkedin.com/economic-graph-research-institute#2",
+      "location": "Remote",
+      "startDate": "2023-01-01",
+      "endDate": "present",
+      "summary": "",
+      "highlights": []
+    },
+    {
+      "name": "LinkedIn",
+      "position": "Senior Staff Economist",
+      "url": "https://www.linkedin.com",
+      "location": "Remote",
+      "startDate": "2022-01-01",
+      "endDate": "present",
+      "summary": "",
+      "highlights": []
+    },
+    {
+      "name": "The RAND Corporation",
+      "position": "Co-director, RAND Center for Causal Inference",
+      "url": "https://www.rand.org/global-and-emerging-risks/centers/methods-centers/causal-inference.html",
+      "location": "Pittsburgh",
+      "startDate": "2018-01-01",
+      "endDate": "2022-01-01",
+      "city": "Pittsburgh",
+      "countryCode": "US",
+      "summary": "",
+      "highlights": []
+    },
+    {
+      "name": "Pardee RAND Graduate School",
+      "position": "Professor of Policy Analysis",
+      "url": "https://www.pardeerand.edu/",
+      "startDate": "2018-01-01",
+      "endDate": "2022-01-01",
+      "city": "Pittsburgh",
+      "countryCode": "US",
+      "summary": "",
+      "highlights": []
+    },
+    {
+      "name": "The RAND Corporation",
+      "position": "Full Economist",
+      "url": "https://www.rand.org/pubs/authors/b/baird_matthew_d.html",
+      "startDate": "2016-01-01",
+      "endDate": "2022-01-01",
+      "city": "Pittsburgh",
+      "countryCode": "US",
+      "summary": "",
+      "highlights": []
+    },
+    {
+      "name": "The RAND Corporation",
+      "position": "Associate Economist",
+      "url": "https://www.rand.org/pubs/authors/b/baird_matthew_d.html",
+      "startDate": "2013-01-01",
+      "endDate": "2016-01-01",
+      "city": "Pittsburgh",
+      "countryCode": "US",
+      "summary": "",
+      "highlights": []
+    },
+    {
+      "name": "Carnegie Mellon University",
+      "position": "Part-Time Instructor (Economics)",
+      "url": "https://www.heinz.cmu.edu/programs/phd-programs/public-policy-management",
+      "startDate": "2016-01-01",
+      "endDate": "2016-12-31",
+      "city": "Pittsburgh",
+      "countryCode": "US",
+      "summary": "",
+      "highlights": []
+    },
+    {
+      "name": "University of Pittsburgh",
+      "position": "Part-Time Instructor (Economics)",
+      "url": "https://www.econ.pitt.edu/doctoral",
+      "startDate": "2014-01-01",
+      "endDate": "2015-12-31",
+      "city": "Pittsburgh",
+      "countryCode": "US",
+      "summary": "",
+      "highlights": []
+    },
+    {
+      "name": "University of California, Los Angeles",
+      "position": "Part-Time Instructor (Economics)",
+      "url": "https://economics.ucla.edu/",
+      "startDate": "2012-01-01",
+      "endDate": "2012-12-31",
+      "city": "Los Angeles",
+      "countryCode": "US",
+      "summary": "",
+      "highlights": []
+    },
+    {
+      "name": "Brigham Young University",
+      "position": "Part-Time Instructor (Economics)",
+      "url": "https://economics.byu.edu/",
+      "startDate": "2010-01-01",
+      "endDate": "2010-12-31",
+      "city": "Provo",
+      "countryCode": "US",
+      "summary": "",
+      "highlights": []
+    }
+  ],
   "education": [
     {
       "institution": "University of California, Los Angeles",
