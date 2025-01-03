@@ -1,10 +1,10 @@
 ---
 layout: cv
 permalink: /cv/
-title: cv
+title: curriculum vitae
 nav: true
-nav_order: 5
-cv_pdf: matthewbaird_cv.pdf # you can also use external links here
+nav_order: 12
+cv_pdf: matthewbaird_cv.pdf 
 toc:
   sidebar: left
 ---

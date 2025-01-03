@@ -628,7 +628,32 @@ jsonresume:
   - volunteer
   - awards
   - certificates
+  - randreports
+  - linkedinreports
   - skills
   - languages
   - interests
   - references
+  - presentations
+  - service
+
+# -----------------------------------------------------------------------------
+# Section labels mapping
+# -----------------------------------------------------------------------------
+section_labels:
+  basics: "Basics"
+  work: "Work Experience"
+  education: "Education"
+  publications: "Publications"
+  projects: "Projects"
+  volunteer: "Volunteer Work"
+  awards: "Awards"
+  certificates: "Certificates"
+  randreports: "RAND Reports"
+  linkedinreports: "LinkedIn Reports"
+  skills: "Skills"
+  languages: "Languages"
+  interests: "Interests"
+  references: "References"
+  presentations: "Presentations"
+  service: "Service"

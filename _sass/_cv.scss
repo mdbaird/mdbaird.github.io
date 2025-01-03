@@ -30,6 +30,9 @@ a.btncv {
   vertical-align: middle;
   text-transform: uppercase;
   white-space: nowrap;
+  border: none;      /* Remove any borders */
+  box-shadow: none;  /* Remove any box-shadow */
+  padding: 10px 0;   /* Add vertical padding */
 }
 
 a.btncv:hover {
@@ -80,6 +83,9 @@ div.container-links {
   justify-content: flex-start;
   margin-top: 1rem;
   margin-bottom: 0.5rem;
+  border: none;      /* Remove any borders */
+  box-shadow: none;  /* Remove any box-shadow */
+  padding: 10px 0;   /* Add vertical padding */
 }
 
 /*****************************
@@ -92,6 +98,9 @@ div.container-pdf {
   flex-wrap: wrap;
   align-items: center;
   justify-content: flex-start;
+  border: none;      /* Remove any borders */
+  box-shadow: none;  /* Remove any box-shadow */
+  padding: 10px 0;   /* Add vertical padding */
 }
 
 /*****************************
@@ -104,6 +113,7 @@ div.list-groups {
   justify-content: flex-start;
   flex-direction: row;
   align-content: center;
+  margin-top: 1rem;
 }
 
 div.list-group {
@@ -112,6 +122,17 @@ div.list-group {
   flex-direction: column;
   align-items: flex-start;
   margin-bottom: 2rem;
+  border: none;      /* Remove any borders */
+  box-shadow: none;  /* Remove any box-shadow */
+  padding: 10px 0;   /* Add vertical padding */
+}
+
+div.list-group:first-child {
+  border-top: none !important;  /* Remove the border from the first item */
+}
+
+div.list-group + div.list-group {
+  border-top: 1px solid #ccc;  /* Add a horizontal line between sections */
 }
 
 td.list-group-category {
@@ -171,6 +192,9 @@ ul.timeline li {
   min-height: 2.2rem;
   color: var(--global-text-color);
   list-style-position: inside;
+  border-top: 1px solid #ccc !important;  /* Add a horizontal line between timeline items */
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
 span.badge-toc {
@@ -193,6 +217,50 @@ ul.timeline li::before {
   position: absolute;
   left: 2px;
   top: -0.5rem;
+}
+
+div.container-link-button, div.container-pdf, div.container-links {
+  box-shadow: none !important; /* Remove any box-shadow */
+  border: 1 !important;     /* Remove any border */
+  background: transparent !important; /* Ensure no background color */
+  padding: 0 !important;       /* Reset any padding */
+  margin: 0 !important;        /* Reset any margin */
+}
+
+/* Remove box shadow and border from card */
+.cv .card {
+  box-shadow: none !important;
+  border: 1 !important;
+  background: transparent !important;
+  margin-bottom: 1rem;  /* Optional: Add space between cards */
+  border-bottom: 2px solid #ddd;  /* Light gray border for separation */
+}
+
+.cv .card:last-child {
+  border-bottom: none;  /* Remove the bottom border for the last card */
+}
+
+.cv .card.mt-3 {
+  border: 1 !important;
+  margin-top: 1 !important;
+  margin-bottom: 1rem;  /* Optional: Add space between cards */
+  border-bottom: 2px solid #ddd;  /* Light gray border for separation */
+}
+
+.cv .card.p-3 {
+  border: 1 !important;
+  padding: 1 !important;
+  margin-bottom: 1rem;  /* Optional: Add space between cards */
+  border-bottom: 2px solid #ddd;  /* Light gray border for separation */
+}
+
+.custom-ul {
+  list-style-type: '— ';
+  margin-left: 10px;
+  padding-left: 10px;
+  font-family: inherit; /* Matches the parent element's font */
+  font-size: inherit; /* Matches the parent element's font size */
+  line-height: inherit; /* Matches the parent element's line height */
 }
 
 /*ul.timeline::before {
