@@ -16,13 +16,6 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
-        },{id: "nav-cv",
-          title: "cv",
-          description: "",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/cv/";
-          },
         },{id: "nav-teaching",
           title: "teaching",
           description: "Materials for courses you taught. Replace this text with your description.",
@@ -30,12 +23,12 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/teaching/";
           },
-        },{id: "nav-people",
-          title: "people",
-          description: "members of the lab or group",
+        },{id: "nav-curriculum-vitae",
+          title: "curriculum vitae",
+          description: "",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/people/";
+            window.location.href = "/cv/";
           },
         },{id: "post-a-post-with-image-galleries",
       
