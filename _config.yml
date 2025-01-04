@@ -638,6 +638,9 @@ jsonresume:
   - references
   - presentations
   - service
+  - teaching_doctoral
+  - teaching_undergrad
+  - teaching_indep
 
 # -----------------------------------------------------------------------------
 # Section labels mapping
@@ -659,3 +662,7 @@ section_labels:
   references: "References"
   presentations: "Presentations"
   service: "Service"
+  teaching_doctoral: "Doctoral courses"
+  teaching_undergrad: "Undergraduate courses"
+  teaching_indep: "Independent studies"
+  
