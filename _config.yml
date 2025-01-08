@@ -8,8 +8,7 @@ middle_name: D.
 last_name: Baird
 # contact_note: >
 #  You can even add a little note about which of these is the best way to reach you.
-description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Personal Website of Matthew Baird
+description: Personal Website of Matthew Baird
 #footer_text: >
 #  Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
 #  Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
