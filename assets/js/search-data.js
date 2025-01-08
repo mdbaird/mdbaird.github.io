@@ -88,6 +88,13 @@ ninja.data = [{
           window.open("", "_blank");
         },
       },{
+        id: 'social-resume_social',
+        title: 'Resume_social',
+        section: 'Socials',
+        handler: () => {
+          window.open("", "_blank");
+        },
+      },{
       id: 'light-theme',
       title: 'Change theme to light',
       description: 'Change the theme of the site to Light',
