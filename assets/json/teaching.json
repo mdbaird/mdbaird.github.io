@@ -49,5 +49,17 @@
       "studyType": "STEM Diversity and Higher Education Policy",
       "institution": "Pardee RAND Graduate School"
     }
+  ],
+  "doctoral_advising": [
+    {
+      "endDate": "2021",
+      "studyType": "Doctoral chair",
+      "institution": "Claudia Rodriguez, Pardee RAND Graduate School"
+    },
+    {
+      "endDate": "2019",
+      "studyType": "Doctoral committee member",
+      "institution": "Ian Morrall, University of Pittsburgh"
+    }
   ]
 }
