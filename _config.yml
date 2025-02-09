@@ -640,6 +640,7 @@ jsonresume:
   - teaching_doctoral
   - teaching_undergrad
   - teaching_indep
+  - doctoral_advising
 
 # -----------------------------------------------------------------------------
 # Section labels mapping
@@ -664,4 +665,5 @@ section_labels:
   teaching_doctoral: "Doctoral courses"
   teaching_undergrad: "Undergraduate courses"
   teaching_indep: "Independent studies"
+  doctoral_advising: "Doctoral advising"
   
