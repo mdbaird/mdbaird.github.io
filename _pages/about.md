@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 subtitle: <strong>Senior Staff Economist @ LinkedIn's <a href='https://economicgraph.linkedin.com/economic-graph-research-institute'>Economic Graph Research Institute</a></strong>.
 
