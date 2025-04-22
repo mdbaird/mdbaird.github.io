@@ -854,6 +854,11 @@
   ],
   "presentations": [
     {
+      "name": "2025",
+      "icon": "fa-solid fa-hashtag",  
+      "reference": "<ul class='custom-ul'><li>American Economic Association ASSA</li> <li>Gender Inequality: Navigating New Frontiers and Paradigm Shifts (London School of Economics)</li> <li>Stagwell</li></ul>"
+    },
+    {
       "name": "2024",
       "icon": "fa-solid fa-hashtag",
       "reference": "<ul class='custom-ul'><li>American Economic Association ASSA</li> <li>Citi Global Insights</li> <li>AARP</li> <li>Artificial Intelligence, Cognition, and Economy Spring Workshop</li> <li>Asia-Pacific Economic Cooperation</li> <li>AI at Wharton 2nd Annual Business and GenAI workshop</li> <li>RAND applied microeconomics seminar series</li> <li>National Association for Business Economics Tech Conference</li> <li>Disability:IN</li></ul>"
