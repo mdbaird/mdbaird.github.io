@@ -19,7 +19,7 @@ social: true # includes social icons at the bottom of the page
 
 I am a Senior Staff Economist at LinkedIn’s Economic Graph Research Institute, where I lead the Economic Opportunity Research Program. With over 15 years of experience in labor economics, I’ve conducted policy research across tech, academia, and the non-profit sector, using econometric methods and economic modeling to understand and improve labor market outcomes.
 
-My work focuses on expanding economic opportunity, including examining disparities by gender, race, education, and socioeconomic status. I’ve also conducted research on education policy and health access and outcomes.
+My work focuses on expanding economic opportunity, including examining disparities by gender, race, education, and socioeconomic status. I additionally focus on the impact of technology on learning and employment, including evaluations of the role of generative AI on the workplace. 
 
 I have authored dozens of peer-reviewed journal articles as well as reports for RAND and LinkedIn’s Economic Graph. My research has been cited thousands of times and I have presented at top academic conferences, universities, corporations, and policy forums. At RAND, I served as principal or co-principal investigator on eleven funded projects totaling several million dollars.
 
