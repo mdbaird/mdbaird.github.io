@@ -17,10 +17,8 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-I am a Senior Staff Economist at LinkedIn’s Economic Graph Research Institute, where I lead the Economic Opportunity Research Program. With over 15 years of experience in labor economics, I’ve conducted policy research across tech, academia, and the non-profit sector, using econometric methods and economic modeling to understand and improve labor market outcomes.
+I am a Senior Staff Economist at LinkedIn’s Economic Graph Research Institute, where I lead the Economic Opportunity Research Program. I am an applied economist and data scientist with over 15 years of experience using causal inference, experimentation, and large-scale data to study labor markets and workforce behavior.
 
-My work focuses on expanding economic opportunity, including examining disparities by gender, race, education, and socioeconomic status. I additionally focus on the impact of technology on learning and employment, including evaluations of the role of generative AI on the workplace. 
+At LinkedIn, I lead end-to-end applied research and serve as a technical leader across economics and data science teams, partnering closely with product, engineering, legal, and policy stakeholders. I am a trusted technical advisor to executive and external audiences and frequently present research findings to corporate, policy, and academic forums. I also lead the Economic Technical Leadership Group across LinkedIn, contributing to methodological standards, mentorship, and technical review. Previously at RAND, I led multidisciplinary research teams as principal or co-principal investigator on multiple applied projects totaling several million dollars.
 
-I have authored dozens of peer-reviewed journal articles as well as reports for RAND and LinkedIn’s Economic Graph. My research has been cited thousands of times and I have presented at top academic conferences, universities, corporations, and policy forums. At RAND, I served as principal or co-principal investigator on eleven funded projects totaling several million dollars.
-
-In addition to my research, I’ve taught Ph.D.-level courses in labor economics, applied econometrics, and causal inference. I hold a Ph.D. in economics from the University of California, Los Angeles (UCLA).
+I have authored over 80 peer-reviewed journal articles and institutional reports, with research cited thousands of times. I have also taught Ph.D.-level courses in causal inference, applied econometrics, and labor economics. I hold a Ph.D. in economics from the University of California, Los Angeles (UCLA).
