@@ -1,14 +1,15 @@
 ---
 layout: default
 ---
+
 {% unless site.data.teaching %}
   <div class="post">
     <header class="post-header">
       <h1 class="post-title">
         {{ page.title }}
-        {% if page.cv_pdf %}
+        {% if page.teaching_pdf %}
           <a
-            href="{{ page.cv_pdf | prepend: 'assets/pdf/' | relative_url}}"
+            href="{{ page.teaching_pdf | prepend: 'assets/pdf/' | relative_url}}"
             target="_blank"
             rel="noopener noreferrer"
             class="float-right"
@@ -22,22 +23,22 @@ layout: default
     </header>
 
     <article>
-      <div class="cv">
+      <div class="teaching">
         {% for entry in site.data.teaching %}
           <a class="anchor" id="{{ entry.title }}"></a>
           <div class="card mt-3 p-3">
             <h3 class="card-title font-weight-medium">{{ entry.title }}</h3>
             <div>
               {% if entry.type == 'list' %}
-                {% include cv/list.liquid %}
+                {% include teaching/list.liquid %}
               {% elsif entry.type == 'map' %}
-                {% include cv/map.liquid %}
+                {% include teaching/map.liquid %}
               {% elsif entry.type == 'nested_list' %}
-                {% include cv/nested_list.liquid %}
+                {% include teaching/nested_list.liquid %}
               {% elsif entry.type == 'time_table' %}
-                {% include cv/time_table.liquid %}
+                {% include teaching/time_table.liquid %}
               {% elsif entry.type == 'list_groups' %}
-                {% include cv/list_groups.liquid %}
+                {% include teaching/list_groups.liquid %}
               {% else %}
                 {{ entry.contents }}
               {% endif %}
@@ -52,12 +53,12 @@ layout: default
     <header class="post-header">
       <h1 class="post-title">
         {{ page.title }}
-        {% if page.cv_pdf %}
+        {% if page.teaching_pdf %}
           <a
-            {% if page.cv_pdf contains '://' %}
-              href="{{ page.cv_pdf }}"
+            {% if page.teaching_pdf contains '://' %}
+              href="{{ page.teaching_pdf }}"
             {% else %}
-              href="{{ page.cv_pdf | prepend: 'assets/pdf/' | relative_url }}"
+              href="{{ page.teaching_pdf | prepend: 'assets/pdf/' | relative_url }}"
             {% endif %}
             target="_blank"
             rel="noopener noreferrer"
@@ -73,10 +74,11 @@ layout: default
     </header>
 
     <article>
-      <div class="cv">
+      <div class="teaching">
         {% for data in site.data.teaching %}
-          {% if site.jsonresume and site.jsonresume.size > 0 %}
-            {% unless site.jsonresume contains data[0] %}
+
+          {% if site.jsonteaching and site.jsonteaching.size > 0 %}
+            {% unless site.jsonteaching contains data[0] %}
               {% continue %}
             {% endunless %}
           {% endif %}
@@ -89,46 +91,14 @@ layout: default
             </h3>
             <div>
               {% case data[0] %}
-                {% when 'basics' %}
-                  {% include resume/basics.liquid %}
-                {% when 'education' %}
-                  {% include resume/education.liquid %}
                 {% when 'teaching_doctoral' %}
-                  {% include resume/teaching_doctoral.liquid %}
+                  {% include teaching/teaching_doctoral.liquid %}
                 {% when 'teaching_undergrad' %}
-                  {% include resume/teaching_undergrad.liquid %}
+                  {% include teaching/teaching_undergrad.liquid %}
                 {% when 'teaching_indep' %}
-                  {% include resume/teaching_indep.liquid %}
+                  {% include teaching/teaching_indep.liquid %}
                 {% when 'doctoral_advising' %}
-                  {% include resume/doctoral_advising.liquid %}
-                {% when 'work' %}
-                  {% include resume/work.liquid %}
-                {% when 'volunteer' %}
-                  {% include resume/volunteer.liquid %}
-                {% when 'projects' %}
-                  {% include resume/projects.liquid %}
-                {% when 'awards' %}
-                  {% include resume/awards.liquid %}
-                {% when 'skills' %}
-                  {% include resume/skills.liquid %}
-                {% when 'publications' %}
-                  {% include resume/publications.liquid %}
-                {% when 'randreports' %}
-                  {% include resume/randreports.liquid %}
-                {% when 'linkedinreports' %}
-                  {% include resume/linkedinreports.liquid %}
-                {% when 'languages' %}
-                  {% include resume/languages.liquid %}
-                {% when 'interests' %}
-                  {% include resume/interests.liquid %}
-                {% when 'presentations' %}
-                  {% include resume/presentations.liquid %}
-                {% when 'certificates' %}
-                  {% include resume/certificates.liquid %}
-                {% when 'service' %}
-                  {% include resume/service.liquid %}
-                {% when 'references' %}
-                  {% include resume/references.liquid %}
+                  {% include teaching/doctoral_advising.liquid %}
                 {% else %}
 
               {% endcase %}

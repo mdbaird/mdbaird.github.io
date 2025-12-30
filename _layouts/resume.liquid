@@ -1,14 +1,14 @@
 ---
 layout: default
 ---
-{% unless site.data.cv %}
+{% unless site.data.resume %}
   <div class="post">
     <header class="post-header">
       <h1 class="post-title">
         {{ page.title }}
-        {% if page.cv_pdf %}
+        {% if page.resume_pdf %}
           <a
-            href="{{ page.cv_pdf | prepend: 'assets/pdf/' | relative_url}}"
+            href="{{ page.resume_pdf | prepend: 'assets/pdf/' | relative_url}}"
             target="_blank"
             rel="noopener noreferrer"
             class="float-right"
@@ -22,22 +22,22 @@ layout: default
     </header>
 
     <article>
-      <div class="cv">
-        {% for entry in site.data.cv %}
+      <div class="resume">
+        {% for entry in site.data.resume %}
           <a class="anchor" id="{{ entry.title }}"></a>
           <div class="card mt-3 p-3">
             <h3 class="card-title font-weight-medium">{{ entry.title }}</h3>
             <div>
               {% if entry.type == 'list' %}
-                {% include cv/list.liquid %}
+                {% include resume/list.liquid %}
               {% elsif entry.type == 'map' %}
-                {% include cv/map.liquid %}
+                {% include resume/map.liquid %}
               {% elsif entry.type == 'nested_list' %}
-                {% include cv/nested_list.liquid %}
+                {% include resume/nested_list.liquid %}
               {% elsif entry.type == 'time_table' %}
-                {% include cv/time_table.liquid %}
+                {% include resume/time_table.liquid %}
               {% elsif entry.type == 'list_groups' %}
-                {% include cv/list_groups.liquid %}
+                {% include resume/list_groups.liquid %}
               {% else %}
                 {{ entry.contents }}
               {% endif %}
@@ -52,12 +52,12 @@ layout: default
     <header class="post-header">
       <h1 class="post-title">
         {{ page.title }}
-        {% if page.cv_pdf %}
+        {% if page.resume_pdf %}
           <a
-            {% if page.cv_pdf contains '://' %}
-              href="{{ page.cv_pdf }}"
+            {% if page.resume_pdf contains '://' %}
+              href="{{ page.resume_pdf }}"
             {% else %}
-              href="{{ page.cv_pdf | prepend: 'assets/pdf/' | relative_url }}"
+              href="{{ page.resume_pdf | prepend: 'assets/pdf/' | relative_url }}"
             {% endif %}
             target="_blank"
             rel="noopener noreferrer"
@@ -73,10 +73,10 @@ layout: default
     </header>
 
     <article>
-      <div class="cv">
-        {% for data in site.data.cv %}
-          {% if site.jsoncv and site.jsoncv.size > 0 %}
-            {% unless site.jsoncv contains data[0] %}
+      <div class="resume">
+        {% for data in site.data.resume %}
+          {% if site.jsonresume and site.jsonresume.size > 0 %}
+            {% unless site.jsonresume contains data[0] %}
               {% continue %}
             {% endunless %}
           {% endif %}
@@ -90,39 +90,14 @@ layout: default
             <div>
               {% case data[0] %}
                 {% when 'basics' %}
-                  {% include cv/basics.liquid %}
-                {% when 'education' %}
-                  {% include cv/education.liquid %}
+                  {% include resume/basics.liquid %}
                 {% when 'work' %}
-                  {% include cv/work.liquid %}
-                {% when 'volunteer' %}
-                  {% include cv/volunteer.liquid %}
-                {% when 'projects' %}
-                  {% include cv/projects.liquid %}
-                {% when 'awards' %}
-                  {% include cv/awards.liquid %}
+                  {% include resume/work.liquid %}
+                {% when 'education' %}
+                  {% include resume/education.liquid %}
                 {% when 'skills' %}
-                  {% include cv/skills.liquid %}
-                {% when 'publications' %}
-                  {% include cv/publications.liquid %}
-                {% when 'randreports' %}
-                  {% include cv/randreports.liquid %}
-                {% when 'linkedinreports' %}
-                  {% include cv/linkedinreports.liquid %}
-                {% when 'languages' %}
-                  {% include cv/languages.liquid %}
-                {% when 'interests' %}
-                  {% include cv/interests.liquid %}
-                {% when 'presentations' %}
-                  {% include cv/presentations.liquid %}
-                {% when 'certificates' %}
-                  {% include cv/certificates.liquid %}
-                {% when 'service' %}
-                  {% include cv/service.liquid %}
-                {% when 'references' %}
-                  {% include cv/references.liquid %}
+                  {% include resume/skills.liquid %}
                 {% else %}
-
               {% endcase %}
             </div>
           </div>

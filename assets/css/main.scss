@@ -6,6 +6,11 @@
 // Dimensions
 $max-content-width: {{ site.max_width }};
 
+ul.no-indent {
+  margin-left: 0;
+  padding-left: 1em;
+}
+
 @import
   "variables",
   "themes",
