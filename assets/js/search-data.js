@@ -9,8 +9,15 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/";
     },
-  },{id: "nav-curriculum-vitae",
-          title: "Curriculum Vitae",
+  },{id: "nav-resume",
+          title: "Resume",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/resume/";
+          },
+        },{id: "nav-academic-cv",
+          title: "Academic CV",
           description: "",
           section: "Navigation",
           handler: () => {
