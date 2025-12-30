@@ -57,7 +57,14 @@ ninja.data = [{
         title: 'email',
         section: 'Socials',
         handler: () => {
-          window.open("mailto:%6D%64%62%61%69%72%64@%6C%69%6E%6B%65%64%69%6E.%63%6F%6D", "_blank");
+          window.open("mailto:%6D%61%74%74%68%65%77%64%62%61%69%72%64@%67%6D%61%69%6C.%63%6F%6D", "_blank");
+        },
+      },{
+        id: 'social-resume_social',
+        title: 'Resume_social',
+        section: 'Socials',
+        handler: () => {
+          window.open("", "_blank");
         },
       },{
         id: 'social-linkedin',
@@ -83,13 +90,6 @@ ninja.data = [{
       },{
         id: 'social-cv_social',
         title: 'Cv_social',
-        section: 'Socials',
-        handler: () => {
-          window.open("", "_blank");
-        },
-      },{
-        id: 'social-resume_social',
-        title: 'Resume_social',
         section: 'Socials',
         handler: () => {
           window.open("", "_blank");
