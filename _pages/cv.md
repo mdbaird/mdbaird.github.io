@@ -1,9 +1,9 @@
 ---
 layout: cv
 permalink: /cv/
-title: Curriculum Vitae
+title: Academic CV
 nav: true
-nav_order: 2
+nav_order: 3
 cv_pdf: matthewbaird_cv.pdf 
 toc:
   sidebar: left
