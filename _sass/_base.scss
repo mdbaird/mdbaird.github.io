@@ -1400,3 +1400,28 @@ ninja-keys::part(ninja-input-wrapper) {
   background-color: var(--global-theme-color);
   color: var(--global-text-color);
 }
+
+.pub-year-toc {
+  position: sticky;
+  top: 5rem;
+  padding-right: 1rem;
+  border-right: 1px solid var(--global-divider-color);
+}
+
+.pub-year-toc ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.pub-year-toc li {
+  margin-bottom: 0.4rem;
+}
+
+.pub-year-toc a {
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.pub-year-toc a:hover {
+  text-decoration: underline;
+}

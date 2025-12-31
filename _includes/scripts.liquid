@@ -314,3 +314,7 @@
 {% if site.newsletter.enabled %}
   <script defer src="{{ '/assets/js/newsletter.js' | relative_url | bust_file_cache }}"></script>
 {% endif %}
+
+{% if page.permalink == "/publications/" %}
+<script src="{{ '/assets/js/publications-anchors.js' | relative_url }}"></script>
+{% endif %}

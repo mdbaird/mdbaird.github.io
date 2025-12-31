@@ -178,14 +178,14 @@
     {
       "name": "Do sectoral training programs reduce arrests?: Evidence from a low-income targeted training program RCT",
       "publisher": "Journal of Human Resources",
-      "releaseDate": "forthcoming",
+      "releaseDate": "2025-11-01",
       "url": "https://www.doi.org/10.3368/jhr.1122-12629R4",
       "summary": "Co-authored with Shamena Anwar, John Engberg, and Rosanna Smart"
     },
     {
       "name": "Beyond test scores: the impact of test persistence value-added on student achievement",
       "publisher": "Education Economics",
-      "releaseDate": "forthcoming",
+      "releaseDate": "2025-01-01",
       "url": "https://www.doi.org/10.1080/09645292.2024.2435362",
       "summary": "Co-authored with John Pane and James Soland"
     },
@@ -225,7 +225,7 @@
       "summary": "Co-authored with Joshua Breslau, Elizabeth Roth, Katherine Carman, and Rebecca Collins"
     },
     {
-      "name": "Veteran educators or for‐profiteers? {Tuition} responses to changes in the Post‐9/11 GI Bill",
+      "name": "Veteran educators or for‐profiteers? Tuition responses to changes in the Post‐9/11 GI Bill",
       "publisher": "Journal of Policy Analysis and Management",
       "releaseDate": "2022-09-01",
       "url": "https://www.doi.org/10.1002/pam.22408",
@@ -570,6 +570,27 @@
   ],
   "linkedinreports": [
     {
+      "name": "The untapped value older workers bring to the multigenerational workforce",
+      "publisher": "Collaborative Report with AARP",
+      "releaseDate": "2025-12-01",
+      "url": "https://economicgraph.linkedin.com/content/dam/me/economicgraph/en-us/PDF/aarp-and-linkedin-report-the-untapped-value-older-workers-bring-to-the-multigenerational-workforce-dec-2025.pdf",
+      "summary": "Co-authored with Rebecca Perron and Rosie Hood"
+    },
+    {
+      "name": "Momentum at Work: Disability and Career Mobility",
+      "publisher": "Collaborative Report with Disability:IN",
+      "releaseDate": "2025-12-01",
+      "url": "https://economicgraph.linkedin.com/content/dam/me/economicgraph/en-us/PDF/linkedin-disability-in-report-dec-2025.pdf",
+      "summary": "Co-authored with Danielle Kavanagh-Smith, Casey Weston, Reid Jewett Smith, Louis Olander, and Jacob Wilson"
+    },
+    {
+      "name": "Transforming Capital for the Next Era: Gender Parity and the Expansion of the Investable Frontier",
+      "publisher": "Collaborative Report with World Economic Forum",
+      "releaseDate": "2025-12-01",
+      "url": "https://reports.weforum.org/docs/WEF_Transforming_Capital_for_the_Next_Era_2025.pdf",
+      "summary": "Co-authored with Silja Baller, Rabab Fayad, Yanjun Guo, Kim Piaget, Saadi Zahidi, Silvia Lara, and Sarah Steinberg"
+    },
+    {
       "name": "WiW Gender Equity Measure 2025 Report: Workplaces that Work For All",
       "publisher": "Collaborative Report with Women in Work",
       "releaseDate": "2025-10-01",
@@ -876,8 +897,8 @@
   "presentations": [
     {
       "name": "2025",
-      "icon": "fa-solid fa-hashtag",  
-      "reference": "<ul class='custom-ul'><li>American Economic Association ASSA</li> <li>Gender Inequality: Navigating New Frontiers and Paradigm Shifts (London School of Economics)</li> <li>Stagwell</li> <li>Stagwell</li><li>KKR CMO Summit</li> <li>Disability:IN Global Conference</li> <li>Penguin Random House</li> <li>Disability:IN Webinar</li> <li>Stagwell</li><li>Women in Work Summit</li></ul>"
+      "icon": "fa-solid fa-hashtag",
+      "reference": "<ul class='custom-ul'><li>American Economic Association ASSA</li> <li>Gender Inequality: Navigating New Frontiers and Paradigm Shifts (London School of Economics)</li> <li>Stagwell</li> <li>Stagwell</li><li>KKR CMO Summit</li> <li>Disability:IN Global Conference</li> <li>Penguin Random House</li> <li>Disability:IN Webinar</li> <li>Stagwell</li><li>Women in Work Summit</li><li>AARP</li><li>World Economic Forum</li><li>Strategic Intelligence</li><li>World Bank South Asia Gender Innovation Lab</li><li>National Association for Business Economics Tech Conference</li><li>Association for Public Policy Analysis and Management Research Conference</li><li>Harvard Business School</li></ul>"
     },
     {
       "name": "2024",
