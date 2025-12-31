@@ -1,0 +1,1 @@
+document.addEventListener("DOMContentLoaded",(function(){document.querySelectorAll(".publications h2.bibliography").forEach((t=>{const e=t.textContent.trim();/^\d{4}$/.test(e)&&(t.id=e)}))}));
